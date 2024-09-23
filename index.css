@@ -1,0 +1,815 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 40px;
+}
+
+.padding104 {
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.headerContents {
+    grid-column: 2/12;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks a {
+    text-decoration: none;
+    margin-right: 40px;
+    line-height: 28px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000000;
+}
+
+#request {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+
+}
+
+/* hero section */
+
+.heroSection {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.heroSectionContents {
+
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.heroSectionContents h1 {
+    padding-bottom: 35px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.heroSectionContents p {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 35px;
+}
+
+.heroSectionContents div a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+
+}
+
+#heroSectionContentsDivone {
+    padding-right: 100px;
+}
+
+.heroSectionContentsDivtwo img {
+    height: 500px;
+    width: 500px;
+}
+
+/* logoSection */
+
+.logoSectionContent {
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoSectionContent img {
+    width: 110.57px;
+    height: 48px;
+}
+
+.serviceContents {
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* .serviceheading */
+
+.servicesProvided {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 45%;
+    gap: 40px;
+}
+
+.servicesProvidedindividual {
+    display: flex;
+    flex-direction: row;
+    justify-content: s;
+    align-items: normal;
+
+}
+
+.servicesProvidedindividual div h3 {
+    padding-bottom: 30px;
+}
+
+.serviceBox {
+    border-radius: 45px;
+    border: 1px solid black;
+    background-color: #F3F3F3;
+    width: 360px;
+    height: 200px;
+    padding: 50px 50px;
+}
+
+h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.learnmoreIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.SEO h3 {
+    background-color: #B9FF66;
+    width: 123px;
+    height: 75px;
+}
+
+.SEO span {
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.marketing h3 {
+    background-color: #B9FF66;
+    width: 123px;
+    height: 75px;
+}
+
+.analytics h3 {
+
+    background-color: #B9FF66;
+    width: 123px;
+    height: 51px;
+}
+
+.analytics span {
+    display: inline-block;
+    padding-top: 35px;
+    /* text-align: center; */
+    color: white;
+}
+
+.contentCreation {
+    background-color: #191A23;
+}
+
+.contentCreation h3 {
+    background-color: #FFFFFF;
+    width: 79px;
+    height: 51px;
+    padding-bottom: 20px;
+}
+
+.contentCreation span {
+    display: inline-block;
+    padding-top: 40px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+.analytics {
+    background-color: #191A23;
+}
+
+.imgpadding {
+    padding-left: 50px;
+}
+
+/*  */
+.EmailMarketing {
+    background-color: #B9FF66;
+}
+
+.EmailMarketing h3 {
+    background-color: #FFFFFF;
+    width: 92px;
+    height: 51px;
+
+}
+
+.EmailMarketing span {
+    display: inline-block;
+    padding-top: 40px;
+    /* text-align: center; */
+    color: #000000;
+}
+
+.marketing {
+    background-color: #B9FF66;
+}
+
+.marketing h3 {
+    background-color: #FFFFFF;
+    width: 92px;
+    height: 75px;
+
+}
+
+.marketing span {
+    display: inline-block;
+    padding-top: 40px;
+    /* text-align: center; */
+    color: #000000;
+}
+
+
+
+.PayPerClick h3 {
+    background-color: #B9FF66;
+    width: 112px;
+    height: 73px;
+
+}
+
+.PayPerClick span {
+    display: inline-block;
+    padding-top: 35px;
+    /* text-align: center; */
+    color: #000000;
+}
+
+.serviceheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.serviceheading h2 {
+    background-color: #F3F3F3;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #B9FF66;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.serviceheading span {
+    font-size: 18px;
+    width: 600px;
+    height: 46px;
+    padding-left: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.letsmake {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid black;
+    width: 1033px;
+    height: 347px;
+    border-radius: 45px;
+    background-color: #F3F3F3;
+}
+
+.margin104 {
+    margin-top: 104px;
+    margin-bottom: 104px;
+}
+
+.letsmake p {
+    padding-bottom: 56px;
+    padding-top: 26px;
+}
+
+.letsmake a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #000000;
+    line-height: 28px;
+    padding: 20px 35px;
+    border-radius: 14px;
+    width: 288px;
+    height: 68px;
+
+}
+
+.letsmake img {
+    width: 494px;
+    height: 394px;
+}
+
+.letsmake h3 {
+    padding-top: 60px;
+    font-weight: 600;
+}
+
+
+/* case studies */
+.CaseStudiesContent {
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.CaseStudiesheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CaseStudiesheader h2 {
+    background-color: #F3F3F3;
+    width: 265;
+    height: 51;
+    text-align: center;
+    background-color: #B9FF66;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.CaseStudiesheader span {
+    font-size: 18px;
+    width: 580px;
+    height: 46px;
+    padding-left: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caseStudiesdesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* color: red; */
+    background-color: #191A23;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 45px;
+
+}
+
+.caseStudiesdesc p {
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18;
+    padding-right: 64px;
+
+}
+
+.caseStudiesdesc span {
+    color: #B9FF66;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.line {
+    height: 150px;
+}
+
+.padddingleft64 {
+    padding-left: 64px;
+}
+
+.arrowsize {
+    width: 10.28px;
+    height: 10px;
+}
+
+.workingContents {
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workingContentsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.workingContentsHeader h2 {
+    background-color: #F3F3F3;
+    width: 265;
+    height: 51;
+    text-align: center;
+    background-color: #B9FF66;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.workingContentsHeader span {
+    font-size: 18px;
+    width: 292px;
+    height: 46px;
+    padding-left: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.consultation {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #B9FF66;
+    padding: 41px 60px;
+    border-radius: 45px;
+}
+
+
+
+.consultion01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number {
+    display: inline-block;
+    width: 65;
+    height: 77;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.plusminusIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.LineCons {
+    width: 926px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+.consultationdesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 45px;
+    background-color: #F3F3F3;
+    height: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.numberSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.numberSection span {
+    padding-right: 20px;
+}
+
+.numberSection h4 {
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+
+}
+
+.contactContents {
+    grid-column: 2/12;
+    margin-top: 104px;
+    /* margin-bottom: 104px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+
+.ContactUsheading {
+    display: flex;
+}
+
+.contactContents h2 {
+    background-color: #F3F3F3;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    background-color: #B9FF66;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contactContents span {
+    /* padding-left: 40px; */
+    font-size: 18px;
+    /* width: 600px; */
+    /* height: 46px; */
+    padding-left: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blockdisplay {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contactform {
+    margin-top: 104px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    border: 1px solid black;
+    background-color: #F3F3F3;
+    width: auto;
+    height: 773px;
+    border-radius: 45px;
+
+
+}
+
+.radio {
+    padding-bottom: 40px;
+}
+
+.button {
+    margin-top: 40px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    width: 556px;
+    height: 68px;
+    border-radius: 14px;
+}
+
+.textbox {
+    width: 556px;
+    height: 59px;
+    border-radius: 14px;
+    text-align: left;
+}
+
+#message {
+    width: 556px;
+    height: 190px;
+    border-radius: 14px;
+    text-align: left;
+}
+
+/* Placeholder style */
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+label {
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+.mr25 {
+    margin-top: 25px;
+}
+
+.contactformimg{
+    overflow: hidden;
+}
+
+footer{
+    background-color: #191A23;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.footerpositiv{
+    grid-column: 2/12;
+}
+
+.posfooterheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.posfooterimgIcon{
+    width: 180px;
+    height: 29px;
+}
+
+.posfooterheader div nav a{
+    color: white;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 40px;
+}
+
+.socialmedia img{
+    padding-left: 20px;
+}
+
+.contactUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 66px;
+    font-size: 12px;
+    font-family: "Space Grotesk", sans-serif;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    
+}
+
+.contactUsprt1{
+    padding-right: 154px;
+}
+
+.contactUs h4{
+    padding-bottom: 27px;
+    border: 1px solid black;
+    background-color: #B9FF66;
+    /* text-align: center; */
+    width: 75px;
+    height: 10px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.contactUsform form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    
+
+}
+
+.formContact button{
+    font-size: 12px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    background-color: #B9FF66;
+}
+
+.contactUsprt1 span{
+    color: white;
+    display: inline-block;
+    padding-bottom: 27px;
+}
+
+.emailtext{
+    width: 285px;
+    height: 68px;
+    border-radius: 14px;
+   
+    
+}
+
+.subscribe{
+    width: 249px;
+    height: 68px;
+    border-radius: 14px;
+    
+}
+
+.ImgLinewhite {
+    width: 926px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.rightReserved{
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+.rightReserved a{
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+}
